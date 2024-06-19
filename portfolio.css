@@ -1,0 +1,137 @@
+.body{ 
+    background-color: aquamarine;
+}
+*{
+    
+    margin: 0%;
+     padding: 0%;
+}
+.navbar{
+    height: 60px;
+    background-color:black;
+    display: flex;   
+}
+.logo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:150px;
+}
+.navbar_elements{
+    display: flex;
+    color: white;
+    margin-top:20px;
+    opacity: calc(0.8);
+    font-size: 20px;
+    margin-left: 800px;
+}
+.name{
+    margin-left: 150px;
+    margin-top:240px;
+    font-size:30px;
+    
+}
+.navbar2{
+    display: flex;
+    margin-top: 10px;
+    color: rgb(14, 13, 13);
+    opacity:calc(0.8);
+    
+}
+.my_self{
+    display: flex;
+    margin-left:  140px;
+}
+
+@keyframes moveUpDown {
+    0% { margin-top: 80px; }
+    50% { margin-top: 100px; }
+    100% { margin-top: 80px; }
+}
+.my_self1, .my_self2 {
+    animation: moveUpDown 7s infinite;
+}
+
+.my_self1{
+    height: 450px;
+    width: 260px;
+    border: solid rgb(64, 236, 179) 2px;
+    background-color: rgb(165, 91, 234);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.my_self2 {
+    height: 450px;
+    width: 260px;
+    border: solid rgb(64, 236, 179) 2px;
+    background-color:rgb(165, 91, 234);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    margin-left: 20px; /* Add this line */
+}
+
+.my_self1, .my_self2 {
+    animation: moveUpDown 7s infinite;
+}
+
+.my_self1{
+    height: 450px;
+    width: 260px;
+    border: rgb(151, 63, 233)  dotted;
+    background-color: rgb(165, 91, 234);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.my_self2 {
+    height: 450px;
+    width: 260px;
+    border: dotted rgb(151, 63, 233) 2px;
+    background-color:rgb(165, 91, 234);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    margin-left: 20px; /* Add this line */
+}
+
+.nayan_logo1{
+    border-radius: 20px;
+    height:454px; 
+    width:264px; 
+}
+.logo_box{
+    border-radius: 50%;
+    height:200px; 
+    width:200px; 
+    margin-left:20px;
+    margin-top: 20px        ;
+}
+.box_name{
+    margin-top: 8px;
+    margin-left: 22px;
+    font-weight: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(236, 233, 54);
+}
+.box_para{
+    color: rgb(236, 233, 54);
+    opacity: calc(0.7);
+    margin-left: 8px;
+    font-size: 17px;
+    
+}
+.wave1{
+    
+  background-color: black;
+    background: url(wave.png);
+
+}
+
+/*
+
+    font-family: Arial;
+    justify-content: space-evenly;
+    
+    .my_self{
+
+   
+}*/
