@@ -1,5 +1,6 @@
 .body{ 
-    background-color: aquamarine;
+    background-color: rgb(34, 253, 180);
+    color-interpolation-filters: linearRGB;
 }
 *{
     
@@ -9,8 +10,116 @@
 .navbar{
     height: 60px;
     background-color:black;
-    display: flex;   
+    display: flex;  
+    border-bottom: rgb(165, 91, 234) solid 3px;
 }
+
+.Home {
+    position: relative;
+    border: black solid 1px;
+    border-radius: 0;
+}
+
+.Home::after {
+    content: '';
+    position: absolute;
+    bottom: 15px; /* Adjust as needed to position the line correctly */
+    left: 0;
+    width: 0;
+    height: 3px; /* Thickness of the line */
+    background-color: rgb(165, 91, 234)  ; /* Color of the line */
+    transition: width 0.7s ease; /* Smooth transition effect */
+}
+
+.Home:hover::after {
+    width: 80%; /* Full width on hover */
+}
+
+.Resume {
+    position: relative;
+    border: black solid 1px;
+    border-radius: 0;
+}
+
+.Resume::after {
+    content: '';
+    position: absolute;
+    bottom: 15px; /* Adjust as needed to position the line correctly */
+    left: 0;
+    width: 0;
+    height: 3px; /* Thickness of the line */
+    background-color: rgb(165, 91, 234)  ; /* Color of the line */
+    transition: width 0.7s ease; /* Smooth transition effect */
+}
+
+.Resume:hover::after {
+    width: 80%; /* Full width on hover */
+}
+
+.projects {
+    position: relative;
+    border: black solid 1px;
+    border-radius: 0;
+}
+
+.projects::after {
+    content: '';
+    position: absolute;
+    bottom: 15px; /* Adjust as needed to position the line correctly */
+    left: 0;
+    width: 0;
+    height: 3px; /* Thickness of the line */
+    background-color: rgb(165, 91, 234)  ; /* Color of the line */
+    transition: width 0.7s ease; /* Smooth transition effect */
+}
+
+.projects:hover::after {
+    width: 80%; /* Full width on hover */
+}
+.About {
+    position: relative;
+    border: black solid 1px;
+    border-radius: 0;
+}
+
+.About::after {
+    content: '';
+    position: absolute;
+    bottom: 15px; /* Adjust as needed to position the line correctly */
+    left: 0;
+    width: 0;
+    height: 3px; /* Thickness of the line */
+    background-color: rgb(165, 91, 234)  ; /* Color of the line */
+    transition: width 0.7s ease; /* Smooth transition effect */
+}
+
+.About:hover::after {
+    width: 80%; /* Full width on hover */
+}
+.Login {
+    position: relative;
+    border: black solid 1px;
+    border-radius: 0;
+}
+
+.Login::after {
+    content: '';
+    position: absolute;
+    bottom: 15px; /* Adjust as needed to position the line correctly */
+    left: 0;
+    width: 0;
+    height: 3px; /* Thickness of the line */
+    background-color: rgb(165, 91, 234)  ; /* Color of the line */
+    transition: width 0.7s ease; /* Smooth transition effect */
+}
+
+.Login:hover::after {
+    width: 80%; /* Full width on hover */
+}
+
+
+
+
 .logo{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -43,67 +152,49 @@
 }
 
 @keyframes moveUpDown {
-    0% { margin-top: 80px; }
-    50% { margin-top: 100px; }
-    100% { margin-top: 80px; }
+    0% { margin-top: 30px; }
+    50% { margin-top: 70px; }
+    100% { margin-top: 30px; }
 }
 .my_self1, .my_self2 {
-    animation: moveUpDown 7s infinite;
+    animation: moveUpDown 4s infinite ;
 }
 
 .my_self1{
-    height: 450px;
-    width: 260px;
-    border: solid rgb(64, 236, 179) 2px;
-    background-color: rgb(165, 91, 234);
-    color: rgb(0, 0, 0);
-    border-radius: 20px;
-}
-
-.my_self2 {
-    height: 450px;
+    
+    height: 470px;
     width: 260px;
     border: solid rgb(64, 236, 179) 2px;
     background-color:rgb(165, 91, 234);
-    color: rgb(0, 0, 0);
     border-radius: 20px;
-    margin-left: 20px; /* Add this line */
-}
-
-.my_self1, .my_self2 {
-    animation: moveUpDown 7s infinite;
-}
-
-.my_self1{
-    height: 450px;
-    width: 260px;
-    border: rgb(151, 63, 233)  dotted;
-    background-color: rgb(165, 91, 234);
-    color: rgb(0, 0, 0);
-    border-radius: 20px;
+    margin-left :150px; /* Add this line */
+    
+    position: absolute;
+    
 }
 
 .my_self2 {
-    height: 450px;
+    padding-top: 20%;
+    height: 470px;
     width: 260px;
-    border: dotted rgb(151, 63, 233) 2px;
-    background-color:rgb(165, 91, 234);
-    color: rgb(0, 0, 0);
     border-radius: 20px;
-    margin-left: 20px; /* Add this line */
 }
+
+
+
 
 .nayan_logo1{
     border-radius: 20px;
-    height:454px; 
-    width:264px; 
+    height:470px; 
+    width:260px; 
 }
 .logo_box{
+    
     border-radius: 50%;
     height:200px; 
     width:200px; 
     margin-left:20px;
-    margin-top: 20px        ;
+    padding-top: 10px;
 }
 .box_name{
     margin-top: 8px;
@@ -119,12 +210,71 @@
     font-size: 17px;
     
 }
-.wave1{
-    
-  background-color: black;
-    background: url(wave.png);
+.button1{
+    margin-left: 31%;
+    margin-top: 18px;
+    font-size: 25px;
+    border-color: yellow;
+}
+
+
+.hr{
+    margin-left: 100px;
+    margin-right:180px;
+
+    border:rgb(165, 91, 234) solid 3px;
+
 
 }
+.hr1{
+    margin-left: 400px;
+    margin-right: 400px;
+
+    border:rgb(204, 150, 0) solid 1.4px;}
+
+.welcome{
+    margin-top: 100px;
+    margin-left: 35%;
+    margin-right: 30%;
+    
+}
+.welcome1{
+    margin-left: 24%;
+}
+     
+    /*
+        .wave::before {
+            content: '';
+        
+            position: absolute;
+            width: 100%;
+            height: 15px;
+            
+            margin-bottom: 0%;
+            background: rgba(255, 255, 255, 0.2);
+
+            animation: wave-animation 5s infinite linear reverse;
+        }
+        .wave::after {
+            content: '';
+           
+            background: rgb(233, 232, 133);
+            margin-bottom: 0%;
+            position: absolute;
+            width: 100%;
+            height: 15px;
+
+
+            animation: wave-animation 7s infinite linear reverse;
+        }
+        @keyframes wave-animation {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
 
 /*
 
@@ -134,4 +284,19 @@
     .my_self{
 
    
-}*/
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
